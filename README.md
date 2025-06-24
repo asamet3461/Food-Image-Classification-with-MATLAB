@@ -1,1 +1,0 @@
-# Food-Image-Classification-with-MATLAB
