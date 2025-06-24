@@ -1,4 +1,4 @@
-# 🍕 Gıda Görüntüsü Sınıflandırması / Food Image Classification with MATLAB
+# Gıda Görüntüsü Sınıflandırması / Food Image Classification with MATLAB
 
 Bu proje, farklı gıda görsellerini tanımak için **MATLAB tabanlı görüntü işleme ve makine öğrenmesi** algoritmalarını kullanan bir sınıflandırma sistemidir.
 
@@ -6,7 +6,7 @@ This project is a MATLAB-based food classification system using **image processi
 
 ---
 
-## 📌 Proje Hakkında / About the Project
+## Proje Hakkında / About the Project
 
 Bu projede, farklı yemek kategorilerine ait görseller sınıflandırılmak üzere analiz edilmiştir. Görüntü işleme adımlarında Gabor filtreleme, Histogram of Oriented Gradients (HOG) ve kenar tespiti gibi yöntemler; sınıflandırma aşamasında ise Support Vector Machines (SVM) kullanılmıştır.
 
@@ -14,7 +14,7 @@ The project classifies food images into categories using steps such as Gabor fil
 
 ---
 
-## ⚙️ Kullanılan Teknolojiler / Technologies
+## Kullanılan Teknolojiler / Technologies
 
 - MATLAB R2023a
 - Image Processing Toolbox
@@ -23,25 +23,25 @@ The project classifies food images into categories using steps such as Gabor fil
 
 ---
 
-## 🧠 Kullanılan Algoritmalar / Algorithms Used
+## Kullanılan Algoritmalar / Algorithms Used
 
-- 🔍 **Gabor Filtering** – Texture-based feature extraction
-- 📐 **HOG (Histogram of Oriented Gradients)** – Shape and edge-based descriptor
-- 🧬 **SVM (Support Vector Machine)** – Multi-class classifier
-- 🎯 **Preprocessing** – Resizing, grayscale conversion, edge detection
+-  **Gabor Filtering** – Texture-based feature extraction
+-  **HOG (Histogram of Oriented Gradients)** – Shape and edge-based descriptor
+-  **SVM (Support Vector Machine)** – Multi-class classifier
+-  **Preprocessing** – Resizing, grayscale conversion, edge detection
 
 ---
 
-## 📂 Veri Seti / Dataset
+## Veri Seti / Dataset
 
-- 📁 `Train_Images/` – Eğitim seti
-- 📁 `Test_Images/` – Test seti
-- 🍽️ Sınıflar: Pizza, Burger, Salad, Sandwich, Pasta (Örnek)
+-  `Train_Images/` – Eğitim seti
+-  `Test_Images/` – Test seti
+-  Sınıflar: Pizza, Burger, Salad, Sandwich, Pasta (Örnek)
 - Görseller `.jpg` formatındadır ve farklı açılardan çekilmiş gıda görüntülerini içerir.
 
 ---
 
-## 🚀 Çalışma Akışı / Workflow
+## Çalışma Akışı / Workflow
 
 1. Görsel giriş olarak alınır (`uigetfile`)
 2. Görsel ön işleme: boyutlandırma, gri tonlama
@@ -51,7 +51,7 @@ The project classifies food images into categories using steps such as Gabor fil
 
 ---
 
-## 🧪 Başarım / Performance
+## Başarım / Performance
 
 - Ortalama doğruluk: **%87–92** (5 sınıf üzerinde test edilmiştir)
 - Karışıklık matrisi kullanılarak sınıflandırma başarımı değerlendirilmiştir
